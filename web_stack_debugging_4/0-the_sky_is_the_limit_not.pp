@@ -1,4 +1,4 @@
-# puppet code to increase amount of traffic an nginx server can handle
+# puppet code to increase amount of traffic an nginx server can handl
 
 exec { 'replace_limit':
   path    => '/usr/bin:/usr/sbin:/bin',
